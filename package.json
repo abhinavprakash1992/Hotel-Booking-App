@@ -5,8 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "semantic-release": "semantic-release",
-    "test": "vows --spec"
+    "semantic-release": "semantic-release"
   },
   "keywords": [],
   "author": "Abhinav Prakash <abhinav.prakash1992@gmail.com>",
