@@ -2,9 +2,8 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: 'master'
+    branches: 
+      - master
 
 jobs:
   quality:
@@ -32,6 +31,8 @@ jobs:
     needs: [quality]
     steps: 
     - uses: actions/checkout@v2
+    - name: build package
+      run: yarn build
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:
