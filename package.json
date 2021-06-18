@@ -41,5 +41,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/abhinavprakash1992/Hotel-Booking-App.git"
-  }
+  },
+    "release": {
+      "branches": ["master", "next"]
+    }
+  
 }
