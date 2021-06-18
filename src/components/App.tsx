@@ -179,7 +179,7 @@ export default class App extends React.Component<{}, State> {
             style={{ marginRight: "10px" }}
             size={"lg"}
           />
-          Choose number of peoples abc
+          Choose number of peoples
         </div>
         <table >
           <thead>
