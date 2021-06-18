@@ -5,7 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release --branches master"
   },
   "keywords": [],
   "author": "Abhinav Prakash <abhinav.prakash1992@gmail.com>",
