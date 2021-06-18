@@ -5,6 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "start": "webpack-dev-server",
+    "commit": "git-cz",
     "semantic-release": "semantic-release --branches master"
   },
   "keywords": [],
@@ -27,6 +28,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.7",
+    "cz-conventional-changelog": "^3.3.0",
     "node-sass": "^4.7.2",
     "postcss-loader": "^2.0.10",
     "react": "^16.4.1",
@@ -42,8 +44,15 @@
     "type": "git",
     "url": "https://github.com/abhinavprakash1992/Hotel-Booking-App.git"
   },
-    "release": {
-      "branches": ["master", "next"]
+  "release": {
+    "branches": [
+      "master",
+      "next"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
-  
+  }
 }
